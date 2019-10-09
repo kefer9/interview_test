@@ -15,6 +15,7 @@ namespace RepeatedStringSolution.Tests.Strategy
 
         [TestCase("ababa", 5, 3)]
         [TestCase("ababa", 10, 6)]
+        [TestCase("ababa", 11, 7)]
         [TestCase("ababa", 12, 7)]
         [TestCase("ababa", 100, 60)]
         [TestCase("ababa", 100000, 60000)]
