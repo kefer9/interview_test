@@ -8,10 +8,10 @@ For example, if the string `s="ababa"` and `n=10` the substring we consider is `
 
 Our program then will use the number of occurences and print a string based on the following condition:
 
-- if the number of occurences is multiple of 3 it will print `Fizz`
-- if the number of occurences is multiple of 5 it will print `Buzz`
-- if the number of occurences is multiple of 3 and 5 it will print `FizzBuzz`
-- if the number of occurences is neither multiple of 3 or 5 it will print the number
+- if the number of occurrences is multiple of 3 it will print `Fizz`
+- if the number of occurrences is multiple of 5 it will print `Buzz`
+- if the number of occurrences is multiple of 3 and 5 it will print `FizzBuzz`
+- if the number of occurrences is neither multiple of 3 or 5 it will print the number
 
 ## Constraints
 
