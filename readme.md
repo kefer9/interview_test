@@ -51,3 +51,9 @@ Our program then will use the number of occurences and print a string based on t
 `letterToAnalyse = 25`
 
 `Sample Output -> FizzBuzz`
+
+## Repository Structure
+
+- **RepeatedString** folder contains the repository that will be presented to the candidate. The solution of the problem is given and it's been coded badly inside the Main method of the program. The idea is to let the candidate refactor and improve the solution as he thinks appropriate to make it testable, applying SOLID principles and patterns.
+
+- **RepeatedStringSolution** contains a project that attempts at a solution that is testable and contains the use of different patterns
