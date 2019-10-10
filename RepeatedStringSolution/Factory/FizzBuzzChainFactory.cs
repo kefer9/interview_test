@@ -6,7 +6,7 @@ namespace RepeatedStringSolution.Factory
     {
         public FizzBuzzChainBase Create()
         {
-            return new MultipleOfThreeAndFive(new MultipleOfFive(new MultipleOfThree(new NoMatch())));
+            return new MultipleOfThreeAndFive(new MultipleOfFive(new MultipleOfThree(null)));
         }
     }
 }

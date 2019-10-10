@@ -13,7 +13,11 @@
         protected abstract bool Match(int value);
         public string DisplayMessage(int value)
         {
-            return Match(value) ? Message : _successor.DisplayMessage(value);
+            return Match(value) 
+                ? Message 
+                : _successor != null 
+                    ? _successor.DisplayMessage(value) 
+                    : value.ToString();
         }
     }
 }
