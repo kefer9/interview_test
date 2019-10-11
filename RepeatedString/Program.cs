@@ -48,7 +48,6 @@ namespace RepeatedString
             }
 
             Console.WriteLine(result);
-            
         }
     }
 }
